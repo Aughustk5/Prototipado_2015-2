@@ -1,5 +1,6 @@
 package 
 {
+	import Utils.input.DKeyboard;
 	import Utils.State.DState;
 	/**
 	 * ...
@@ -17,6 +18,7 @@ package
 		override public function init():void
 		{
 			super.init();
+			DKeyboard.init(stage);
 			trace('holi');
 			hero = new Hero();
 			addChild(hero);

@@ -87,7 +87,7 @@ package Utils.Objects
 			
 		}
 		
-		private function init():void 
+		public function init():void 
 		{
 			if (_centerPivot)
 			{
